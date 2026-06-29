@@ -17,6 +17,12 @@ export default function Home() {
 
       <nav className="flex flex-col gap-3">
         <Link
+          href="/demo"
+          className="rounded-xl border border-indigo-500/40 bg-indigo-950/30 px-5 py-4 text-lg font-medium text-indigo-100 shadow-sm transition hover:border-indigo-400"
+        >
+          Screen Intelligence — demo comercial express
+        </Link>
+        <Link
           href="/sensmi-dashboard"
           className="rounded-xl border border-zinc-200 bg-white px-5 py-4 text-lg font-medium text-zinc-900 shadow-sm transition hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-100"
         >
